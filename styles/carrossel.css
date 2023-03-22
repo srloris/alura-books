@@ -35,17 +35,20 @@
 .descricao {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+}
+.descricao-estrelas {
+    margin-top: 0.2rem;
 }
 .descricao-titulo {
     color: var(--cor-laranja);
     font-weight: 700;
-    margin-top: 0.2rem;
+    margin-top: 0.3rem;
 }
 .descricao-livro {
     color: var(--cor-azul);
     font-size: 1.1rem;
     font-weight: 700;
+    margin: 0.7rem 0;
 }
 .descricao-texto {
     color: var(--cor-preto-semi-trans);
@@ -59,7 +62,7 @@
 .botoes-img {
     display: flex;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1.7rem;
     margin-left: 0.75rem;
 }
 .botoes-img img {
