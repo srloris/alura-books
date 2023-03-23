@@ -48,3 +48,46 @@
     background-clip: text;
     text-transform: uppercase;
 }
+.container__titulo, 
+.container__titulo--negrito,
+.container__nav {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--font-secundaria);
+        font-size: 2rem;
+        display: inline-block;
+    }
+    .container__titulo {
+        font-weight: 400;
+    }
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+    .container__nav {
+        display: flex;
+        gap: 1.5rem;
+    }
+    .container__nav--itens {
+        text-transform: uppercase;
+        color: var(--cor-preto);
+    }
+    .container__nav--links {
+        color: var(--cor-preto);
+        text-decoration: none;
+    }
+    .nav__botao:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+    .nav__botao {
+        display: none;
+    }
+    .container__imagem-transparente,
+    .cabecalho__menusandwich {
+        display: none;
+    }
+}
