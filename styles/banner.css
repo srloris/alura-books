@@ -33,4 +33,5 @@
     font-family: var(--font-principal);
     background: url("../assets/lupa.svg") no-repeat;
     background-position: 1rem;
+    padding-left: 2rem;
 }
