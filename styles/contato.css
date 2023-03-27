@@ -31,3 +31,27 @@
     background-repeat: no-repeat;
     padding-left: 2rem;
 }
+
+@media screen and (min-width:1024px) {
+    
+    .contato {
+        display: flex;
+        align-items: center;
+        padding: 2rem 6rem;
+        gap: 2rem;
+    }
+    .contato__box {
+        width: 40%;
+    }
+    .contato__titulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .contato__texto {
+        margin-top: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .contato__email {
+        width: 40%;
+    }
+}

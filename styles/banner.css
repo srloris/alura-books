@@ -2,6 +2,10 @@
     background-image: var(--cor-azul-degrade);
     color: var(--cor-branco);
     display: flex;
+    justify-content: center;
+}
+.banner__box {
+    display: flex;
     flex-direction: column;
     gap: 1.3rem;
     align-items: center;
@@ -34,4 +38,21 @@
     background: url("../assets/lupa.svg") no-repeat;
     background-position: 1rem;
     padding-left: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+
+    .banner__box {
+        width: 70%;
+        padding: 4rem 0;
+    }
+    .banner__titulo {
+        font-size: 2rem;
+    }
+    .banner__pesquisa {
+        width: 60%;
+    }
+    .banner__pesquisa::placeholder {
+        background-position: 4.5rem;
+    }
 }
