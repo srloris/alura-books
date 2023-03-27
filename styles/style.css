@@ -15,6 +15,8 @@
     --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-azul: #002F52;
     --cor-preto-semi-trans: #000000D9;
+    --cor-cinza: #474646;
+    --cor-cinza1: #858585;
     --font-principal: 'Poppins', sans-serif;
     --font-secundaria: 'Josefin Sans', sans-serif;
 }
