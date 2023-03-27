@@ -50,7 +50,8 @@
 }
 .container__titulo, 
 .container__titulo--negrito,
-.container__nav {
+.container__nav,
+.imagem-descricao {
     display: none;
 }
 
@@ -89,5 +90,27 @@
     .container__imagem-transparente,
     .cabecalho__menusandwich {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho {
+        padding: 0 2rem;
+    }
+    .container__titulo {
+        padding-right: 3rem;
+    }
+    .container__nav {
+        margin-right: auto;
+    }
+    .container__box {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preto);
+    }
+    .imagem-descricao {
+        display: inline-block;
     }
 }
