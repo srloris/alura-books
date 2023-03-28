@@ -83,6 +83,9 @@
         font-size: 1.5rem;
         padding: 2.5rem 0 1.5rem 0;
     }
+    .swiper {
+        width: 90%;
+    }
     .swiper-pagination {
         padding: 1rem 0 2.2rem 0;
     }
@@ -91,9 +94,10 @@
     }
     .swiper-wrapper {
         text-align: center;
+        width: 100px;
     }
     .swiper-slide img {
-        width: 60%;
+        width: 75%;
     }
     .card {
         width: 50%;
@@ -107,5 +111,30 @@
     }
     .descricao-texto {
         line-height: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem 15% 5rem 15%;
+    }
+    .swiper {
+        width: 70%;
+    }
+    .swiper-pagination {
+        padding: 0 0 1rem 0;
+    }
+    .descricao-titulo {
+        font-size: 1.7rem;
+    }
+    .descricao-livro {
+        font-size: 1.2rem;
+    }
+    .descricao-texto {
+        font-size: 1rem;
     }
 }

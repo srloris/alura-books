@@ -27,9 +27,10 @@ hr {
     }
     .lista-rodapé__titulo {
         color: var(--cor-cinza1);
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         text-transform: uppercase;
         font-size: 0.8rem;
+        display: inline-block;
     }
     .lista-rodapé__link {
         text-decoration: none;
