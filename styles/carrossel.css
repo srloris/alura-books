@@ -118,9 +118,9 @@
 
     .carrossel__container {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 5rem;
-        padding: 3rem 15% 5rem 15%;
+        padding: 3rem 15% 4rem 15%;
     }
     .swiper {
         width: 70%;
